@@ -1,0 +1,82 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffe6f2;
+  color: #5a5a5a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🎀 Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(255, 182, 193, 0.3);
+}
+
+/* 🛍️ Titre */
+h1 {
+  font-size: 2rem;
+  color: #ff66b2;
+  text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.2);
+}
+
+/* ✨ Formulaire d'ajout */
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #ff99cc;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #ff66b2;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+}
+
+/* 🎀 Boutons */
+button {
+  background: linear-gradient(135deg, #ff99cc, #ff66b2);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff66b2, #ff3385);
+  transform: scale(1.05);
+}
+
+/* 🛍️ Liste des produits */
+.product {
+  background: #fff0f5;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 10px rgba(255, 105, 180, 0.2);
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 15px rgba(255, 105, 180, 0.3);
+}
+
+/* 🗑️ Bouton de suppression */
+.delete-btn {
+  background: #ff3366;
+}
+
+.delete-btn:hover {
+  background: #cc0033;
+}
